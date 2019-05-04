@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is simply HTML that has meaning. Each tag used in HTML is used not only for functionality, but to help assist accessibility software, to tell screen readers, and intelligent AI programs (like Siri and Cortana) what the page is doing, when reading it aloud for the visually impaired. For example, instead of having a <div> element ( which is not semantic), and the screen reader not knowing what it is, a <section> or <main> element can be used, which will give a better idea of the content inside. This also helps robots for search engines increase visibility and ranking, as it makes it easier to determine what and how much meaningful content is within a website. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model?
+
+Display block only shows each html element on a new line of content, while display inline places them in a row. Also, display:block has a default width of the container of content, while display:inline does not respect height and width. 
+
+
+3. What are the 4 areas of the box model?  
+
+Content, Padding, Border and Margin
+
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This works on the Cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+5.  Git is valuable to developer teams, because it allows for them to simultaneously work on the same project, from anywhere in the world, and make changes and updates. It also allows for the changes and the way they are made to be updated based on the best working methods for a team, and saves every step of change along the way, making it useful when code breaks, updates are needed, etc. It opens up a world of possibilities and is known as version control. It is like Microsoft Word’s Tracking Changes on steroids, with the added function of being able to work as a team on one thing at the same time. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
