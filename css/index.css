@@ -206,5 +206,64 @@ footer {
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
     color: white;
+    padding: 0 0 0 15px;;
 
+}
+
+/* About Page */
+
+.about {
+    margin: 15px 0;
+    padding: 30px 15px;
+    border-bottom: 1px dashed black;
+
+}
+.toprow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 30px 5px;
+}
+.t1 {
+    width: 47%;
+    /* padding: 0 15px; */
+    border-bottom: 1px dashed black;
+}
+.t2 {
+    width: 47%;
+    /* padding: 0 15px; */
+    border-bottom: 1px dashed black;
+}
+/* button */
+
+button {
+    margin: 30px 0;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.bottomrow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 30px 5px;
+}
+.b1 {
+    width: 47%;
+    /* padding: 0 15px; */
+    border-bottom: 1px dashed black;
+}
+.b2 {
+    width: 47%;
+    /* padding: 0 15px; */
+    border-bottom: 1px dashed black;
+}
+
+.img1 {
+    margin-bottom: 20px;
+}
+
+.end {
+    /* margin: 15px 0; */
+    padding: 20px 15px;
 }
