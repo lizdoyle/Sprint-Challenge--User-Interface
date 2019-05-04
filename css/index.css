@@ -267,3 +267,25 @@ button {
     /* margin: 15px 0; */
     padding: 20px 15px;
 }
+/* Contact Page */
+.contact {
+    margin: 20px 0;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: 20px 10px; 
+    margin: 20px 0;
+    border-radius: 10px;
+}
+button, .btn2 {
+    padding: 20px 15px;
+    width: 150px;
+    cursor: pointer;
+}
+#msg {
+    height: 200px;
+}
