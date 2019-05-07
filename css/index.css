@@ -70,12 +70,41 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+    /* align-items: space-between; */
+    
+}
+
+.hero {
+    margin: 30px 0;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+nav a {
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 0 40px;
+}
+
+
+
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -112,6 +141,38 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes  .box2 {
+    background: gold;
+}
+.middle-content .boxes  .box3 {
+    background: cadetblue;
+}
+.middle-content .boxes  .box4 {
+    background: coral;
+}
+.middle-content .boxes  .box5 {
+    background: crimson;
+}
+.middle-content .boxes  .box6 {
+    background: forestgreen;
+}
+.middle-content .boxes  .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes  .box8 {
+    background: hotpink;
+}
+.middle-content .boxes  .box9 {
+    background: indigo;
+}
+.middle-content .boxes  .box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -131,16 +192,100 @@ footer {
     background: black;
 }
 
-footer nav {
-    width: 60%;
+.foot {
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 0;
     font-size: 14px;
 }
 
-footer nav a {
+.foot a {   
+     text-decoration: none;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
     color: white;
-    text-decoration: none;
+    padding: 0 0 0 15px;;
+
+}
+
+/* About Page */
+
+.about {
+    margin: 15px 0;
+    padding: 30px 15px;
+    border-bottom: 1px dashed black;
+
+}
+.toprow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 30px 5px;
+}
+.t1 {
+    width: 47%;
+    /* padding: 0 15px; */
+    border-bottom: 1px dashed black;
+}
+.t2 {
+    width: 47%;
+    /* padding: 0 15px; */
+    border-bottom: 1px dashed black;
+}
+/* button */
+
+button {
+    margin: 30px 0;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.bottomrow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 30px 5px;
+}
+.b1 {
+    width: 47%;
+    /* padding: 0 15px; */
+    border-bottom: 1px dashed black;
+}
+.b2 {
+    width: 47%;
+    /* padding: 0 15px; */
+    border-bottom: 1px dashed black;
+}
+
+.img1 {
+    margin-bottom: 20px;
+}
+
+.end {
+    /* margin: 15px 0; */
+    padding: 20px 15px;
+}
+/* Contact Page */
+.contact {
+    margin: 20px 0;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: 20px 10px; 
+    margin: 20px 0;
+    border-radius: 10px;
+}
+button, .btn2 {
+    padding: 20px 15px;
+    width: 150px;
+    cursor: pointer;
+}
+#msg {
+    height: 200px;
 }
